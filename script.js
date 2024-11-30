@@ -22,7 +22,7 @@ function createList(items) {
 
 // Этаж 1
 button1.addEventListener('click', () => {
-  image.src = '/static/images/image1.jpg';  // Путь к изображению
+  image.src = 'images/image1.jpg';  // Путь к изображению
   tableDescription1.innerHTML = ''; // Очищаем предыдущий контент
   tableDescription1.textContent = '1 этаж'; // номер этажа
   tableDescription2.innerHTML = '';
@@ -38,7 +38,7 @@ button1.addEventListener('click', () => {
 
 // Этаж 2
 button2.addEventListener('click', () => {
-  image.src = '/static/images/image2.jpg';
+  image.src = 'images/image2.jpg';
   tableDescription1.innerHTML = '';
   tableDescription1.textContent = '2 этаж: Кафедра "Конструкция и проектирование двигателей летательных аппаратов"'; // номер этажа
   tableDescription2.innerHTML = '';
@@ -57,7 +57,7 @@ button2.addEventListener('click', () => {
 
 // Этаж 3
 button3.addEventListener('click', () => {
-  image.src = '/static/images/image3.jpg';
+  image.src = 'images/image3.jpg';
   tableDescription1.innerHTML = '';
   tableDescription1.textContent = '3 этаж: Кафедра "Автоматические системы энергетических установок имени академика РАН В.П. Шорина"'; // номер этажа
   tableDescription2.innerHTML = '';
@@ -83,7 +83,7 @@ button3.addEventListener('click', () => {
 
 // Этаж 4
 button4.addEventListener('click', () => {
-  image.src = '/static/images/image4.jpg';
+  image.src = 'images/image4.jpg';
   tableDescription1.innerHTML = '';
   tableDescription1.textContent = '4 этаж'; // номер этажа
   tableDescription2.innerHTML = '';
@@ -104,7 +104,7 @@ button4.addEventListener('click', () => {
 
 // Этаж 5
 button5.addEventListener('click', () => {
-  image.src = '/static/images/image5.jpg';
+  image.src = 'images/image5.jpg';
   tableDescription1.innerHTML = '';
   tableDescription1.textContent = '5 этаж'; // номер этажа
   tableDescription2.innerHTML = '';
