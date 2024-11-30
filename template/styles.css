@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(79, 70, 89); 
+}
+
+/* --------------------Заголовок-------------------- */
+h1 {
+  text-align: center;
+  color: rgb(242, 185, 155);
+  font-weight: bold; /* Делаем текст жирным */
+  font-family: 'Arial', sans-serif; /* шрифт*/
+  font-size: 500%;
+}
+
+/* --------------------Изображение-------------------- */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px; /* ширина */
+  height: auto; /* Сохраняем пропорции изображения */
+}
+
+/* --------------------Кнопки-------------------- */
+.buttons {
+  text-align: center; /* центрирование */
+  margin: 30px 0; /* отступы сверху и снизу */
+}
+
+button {
+  background-color: rgb(191, 133, 121);
+  color: white;
+  font-family: 'Arial', sans-serif; /* Шрифт */
+
+  padding: 15px 30px; /* Увеличение внутреннего отступа */
+  
+  font-size: 18px; /* Увеличение размера шрифта */
+  width: auto; /* Можно установить фиксированную ширину, если это необходимо */
+  border: none; /* Убираем рамку, если она есть */
+  padding: 10px 20px; /* отступы */
+  margin: 10px; /* Отступ между кнопками */
+  text-align: center;
+  cursor: pointer; /* Курсор в виде указателя при наведении */
+  border-radius: 5px; /* Скругляем углы кнопки */
+}
+button:hover {
+  background-color: rgb(200, 120, 106); /* Добавляем эффект наведения */
+}
+
+/* --------------------Таблица-------------------- */
+table {
+  width: 60%; /* Увеличиваем общую ширину таблицы */
+  border-collapse: collapse;
+  margin: auto; /* Центрирование таблицы */
+}
+
+/* Заголовки таблицы */
+th {
+  background-color: rgb(191, 133, 121);
+  color: rgb(255, 255, 255); /* Цвет текста */
+  font-family: 'Arial', sans-serif; /* Шрифт*/
+  padding: 15px; /* Увеличиваем внутренние отступы для заголовков */
+  min-width: 300px; /* Устанавливаем минимальную ширину для колонок */
+}
+
+/* Ячейки таблицы */
+td {
+  background-color: rgb(242, 185, 155);
+  border: 2px solid rgb(79, 70, 89);
+  color: rgb(81, 67, 96); /* Цвет текста */
+  font-family: 'Arial', sans-serif; /* Шрифт*/
+  font-size: 18px; /* размер */
+  padding: 15px; /* внутренние отступы */
+  text-align: center;
+}
